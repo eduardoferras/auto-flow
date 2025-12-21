@@ -1,0 +1,7 @@
+{
+	"name": "auto-flow",
+	"private": true,
+	"workspaces": [
+		"apps/*"
+	]
+}
