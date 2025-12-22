@@ -1,25 +1,25 @@
 {
-	"name": "web",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "biome check",
-		"format": "biome format --write"
-	},
-	"dependencies": {
-		"next": "16.1.0",
-		"react": "19.2.3",
-		"react-dom": "19.2.3"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.2.0",
-		"@types/node": "^20",
-		"@types/react": "^19",
-		"@types/react-dom": "^19",
-		"sass": "^1.97.1",
-		"typescript": "^5"
-	}
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "next": "16.1.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "sass": "^1.97.1",
+    "typescript": "^5"
+  }
 }
