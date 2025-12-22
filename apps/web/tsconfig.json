@@ -22,6 +22,7 @@
     "paths": {
       "@components": ["components/*"],
       "@interfaces": ["interfaces/*"],
+      "@styles": ["styles/*"],
       "@/*": ["*"]
     }
   },
