@@ -3,5 +3,14 @@
 	"private": true,
 	"workspaces": [
 		"apps/*"
-	]
+	],
+	"scripts": {
+		"changeset": "changeset",
+		"version": "changeset version",
+		"canary:enter": "changeset pre enter canary",
+		"canary:exit": "changeset pre exit"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.29.8"
+	}
 }
