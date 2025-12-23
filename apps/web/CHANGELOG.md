@@ -1,5 +1,11 @@
 # web
 
+## 0.1.1-canary.0
+
+### Patch Changes
+
+- cb26eba: new version patch
+
 ## 0.1.0
 
 ### Minor Changes

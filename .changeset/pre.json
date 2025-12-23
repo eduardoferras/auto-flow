@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "canary",
+  "initialVersions": {
+    "api": "0.1.0",
+    "web": "0.1.0"
+  },
+  "changesets": [
+    "violet-pillows-see"
+  ]
+}
