@@ -1,5 +1,17 @@
 # web
 
+## 0.1.0
+
+### Minor Changes
+
+- d24b574: feat(web): initialize next.js app
+
+### Patch Changes
+
+- 1eb3d2c: version changeset
+- 80ad46f: docs: web technologies readme
+- 1c5b223: docs: add technologies link to readme
+
 ## 0.0.1-canary.1
 
 ### Patch Changes
