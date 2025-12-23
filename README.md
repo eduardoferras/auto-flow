@@ -15,6 +15,6 @@
 ### Web
 
 - Next.js - React.js Framework
-- Typescript
+- TypeScript
 - Sass - Styles
 - Biome - Linter and Formatter
