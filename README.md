@@ -18,3 +18,10 @@
 - TypeScript
 - Sass - Styles
 - Biome - Linter and Formatter
+
+### API
+
+- Nestjs - Node.js Framework
+- TypeScript
+- Eslint - Linter
+- Prettier - Formatter
