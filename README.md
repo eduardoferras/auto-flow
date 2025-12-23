@@ -9,3 +9,12 @@
         🚧  Status: 🚀 In progress...  🚧
     </h4>
 </div>
+
+## Technologies
+
+### Web
+
+- Next.js - React.js Framework
+- Typescript
+- Sass - Styles
+- Biome - Linter and Formatter
