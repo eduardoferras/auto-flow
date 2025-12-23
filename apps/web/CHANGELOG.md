@@ -1,5 +1,12 @@
 # web
 
+## 0.1.1
+
+### Patch Changes
+
+- 9a5bb0b: add changeset version
+- cb26eba: new version patch
+
 ## 0.1.1-canary.1
 
 ### Patch Changes

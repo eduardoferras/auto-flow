@@ -17,7 +17,6 @@ permissions:
 
 jobs:
   tests:
-    if: ${{ !startsWith(github.head_ref, 'changeset-release/') }}
     runs-on: ubuntu-latest
     container:
       image: node:24-slim
