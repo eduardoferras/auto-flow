@@ -1,5 +1,11 @@
 # web
 
+## 0.0.1-canary.0
+
+### Patch Changes
+
+- 1c5b223: docs: add technologies link to readme
+
 ## 0.1.0-canary.1
 
 ### Patch Changes
