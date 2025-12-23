@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "changeset": "changeset",
-    "version": "changeset version",
+    "version": "changeset version && npm install",
     "canary:enter": "changeset pre enter canary",
     "canary:exit": "changeset pre exit",
     "lint": "npm run lint --workspaces",
