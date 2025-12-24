@@ -20,6 +20,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "prettier": "^2.8.8",
     "sass": "^1.97.1",
     "typescript": "^5"
   }
