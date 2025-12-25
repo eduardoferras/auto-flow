@@ -1,0 +1,70 @@
+.footer {
+  padding: 3.2rem 0;
+  border-top: 1px solid #272c3580;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__policies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+
+    &__item {
+      @include transition;
+
+      &:hover {
+        color: $color-heading;
+      }
+    }
+  }
+
+  &__copyright,
+  &__description {
+    text-align: center;
+
+    @include tablet {
+      text-align: initial;
+    }
+  }
+
+  &__description,
+  &__copyright,
+  &__links {
+    color: $color-body;
+    font: 400 1.4rem / 2rem $font-body;
+  }
+}
