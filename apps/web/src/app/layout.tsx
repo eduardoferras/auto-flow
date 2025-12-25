@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@styles/reset.scss";
 import "@styles/globals.scss";
 import { inter, spaceGrotesk } from "@assets/fonts";
 import AppHeader from "@components/AppHeader";
