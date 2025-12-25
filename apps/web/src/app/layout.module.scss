@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: clip;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

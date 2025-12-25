@@ -1,0 +1,23 @@
+.button {
+  cursor: pointer;
+  background: var(--btn-color, $color-primary);
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  font: 500 1.4rem / 2rem $font-ui;
+  color: $color-body;
+
+  &:hover {
+    background: color-mix(in srgb, var(--btn-color, $color-primary) 80%, white);
+  }
+
+  &--plain {
+    background: none !important;
+    border: none;
+
+    &:hover {
+      color: color-mix(in srgb, var(--btn-color, $color-primary) 80%, black);
+    }
+  }
+}
