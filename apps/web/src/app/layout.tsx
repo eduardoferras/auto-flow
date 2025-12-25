@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@styles/reset.scss";
 import "@styles/globals.scss";
 import { inter, spaceGrotesk } from "@assets/fonts";
+import AppFooter from "@components/AppFooter";
 import AppHeader from "@components/AppHeader";
 import S from "./layout.module.scss";
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <div className={S.app}>
           <AppHeader />
           <main className={S.main}>{children}</main>
+          <AppFooter />
         </div>
       </body>
     </html>
