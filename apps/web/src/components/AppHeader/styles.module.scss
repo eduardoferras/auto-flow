@@ -25,32 +25,6 @@
   }
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-
-  &__icon {
-    width: 3.2rem;
-    height: 3.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1.2rem;
-    background-image: linear-gradient(to bottom right, $color-primary, #8347eb);
-
-    &__symbol {
-      font-size: 1.8rem;
-      line-height: 2.8rem;
-    }
-  }
-
-  &__text {
-    font: 700 2rem / 2.8rem $font-heading;
-    color: $color-heading;
-  }
-}
-
 .nav {
   display: none;
 
