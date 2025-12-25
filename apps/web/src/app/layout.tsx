@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@styles/globals.scss";
 import { inter } from "@assets/fonts";
 import AppHeader from "@components/AppHeader";
+import S from "./layout.module.scss";
 
 export const metadata: Metadata = {
   title: "Auto Flow",
@@ -16,8 +17,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={inter.variable}>
-        <AppHeader />
-        {children}
+        <div className={S.app}>
+          <AppHeader />
+          <main className={S.main}>{children}</main>
+        </div>
       </body>
     </html>
   );
